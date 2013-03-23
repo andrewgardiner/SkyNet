@@ -1,0 +1,50 @@
+
+#uploaded_file { border: 1px solid #777777; background: #6e9e2d; color: white; font: bold 11px 'Trebuchet MS'; padding: 4px; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px; }
+
+Read more: http://www.webmastertalkforums.com/css/27495-there-any-way-style-choose-file-button-file-input-form-css3.html#ixzz2NpuFk3zt
+#btn-inverse{
+  width: 900px;
+}
+
+#slideshow-area, #slideshow-scroller {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#slideshow-area {
+  border: 1px solid #000;
+}
+
+#slideshow-holder {
+  height: 500px;
+}
+
+#slideshow-previous, #slideshow-next {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: 
+    transparent 
+    url("http://tech.pro/_sotc/sites/default/files/467/images/arrow_left.png") 
+    no-repeat 50% 50%;
+  top: 225px;
+  display: none;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#slideshow-next {
+  display: block;
+  background: 
+    transparent 
+    url("http://tech.pro/_sotc/sites/default/files/467/images/arrow_right.png") 
+    no-repeat 50% 50%;
+  top: 225px;
+  right: 0;
+}
+
+.slideshow-content {
+  float: left;
